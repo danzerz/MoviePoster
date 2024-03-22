@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Michroma&display=swap");
+
+/* universal seletor */
+* {
+  box-sizing: border-box; /* Box model */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+/* Body styles */
+body {
+  min-width: 100vw; /* Ensure minimum viewport width */
+  height: 700px; /* Set body height */
+  background-color: rgba(255, 251, 12, 0.762); /* Background color */
+}
+
+/* Container styles */
+.container {
+  height: 100%; /* Full height */
+  width: 100%; /* Full width */
+  display: flex; /* Flex layout */
+  justify-content: center; /* Center content horizontally */
+}
+
+/* Heading styles */
+h1 {
+  padding-top: 2em; /* Top padding */
+  font-family: "Michroma", sans-serif; /* Font family */
+  font-weight: 900; /* Font weight */
+  font-style: normal; /* Normal font style */
+  font-size: 400%; /* Font size */
+}
+
+/* Main container styles */
+.main-container {
+  display: flex; /* Flex layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  flex-direction: column; /* Column layout */
+}
+
+/* Image 1 styles */
+#img_1 {
+  padding-top: 40px; /* Top padding */
+}
+
+/* Image 3 styles */
+#img_3 {
+  margin-top: -4em; /* Negative margin */
+  height: 400px; /* Set height */
+  width: 600px; /* Set width */
+}
+
+/* Link styles */
+.img_link {
+  border: 2px solid red; /* Red border */
+  height: 500px; /* Set height */
+  width: 400px; /* Set width */
+}
+
+/* Heading 2 styles */
+h2 {
+  text-align: center; /* Center align */
+  font-family: "Michroma", sans-serif; /* Font family */
+  font-weight: 700; /* Font weight */
+  color: black; /* Text color */
+  font-style: normal; /* Normal font style */
+}
+
+/* Text styles */
+.text {
+  height: 200px; /* Set height */
+  width: 500px; /* Set width */
+  display: flex; /* Flex layout */
+  align-items: center; /* Center content vertically */
+  justify-content: space-evenly; /* Space evenly */
+  flex-direction: row; /* Row layout */
+}
+
+/* Dolby logo styles */
+#dolby_logo {
+  height: 90px; /* Set height */
+  width: 90px; /* Set width */
+}
+
+/* Audio styles */
+.audio {
+  padding-right: 10px; /* Right padding */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; /* Font family */
+  font-weight: 700; /* Font weight */
+}
+
+/* Paragraph styles */
+.text p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; /* Font family */
+  font-weight: 500; /* Font weight */
+}
+
+/* Dead link styles */
+.dead_link {
+  text-decoration: none; /* Remove underline */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Hover effect for dead link */
+.dead_link:hover {
+  font-size: 25px; /* Increase font size on hover */
+}
